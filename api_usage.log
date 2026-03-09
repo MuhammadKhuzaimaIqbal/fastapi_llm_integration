@@ -1,0 +1,49 @@
+2026-03-09 12:30:14,297 - ERROR - Error in /summarize: [Errno 2] No such file or directory: 'prompts/summarize.txt'
+2026-03-09 12:52:50,144 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 12:52:54,356 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 12:52:58,438 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 12:52:58,443 - ERROR - Error in /summarize: RetryError[<Future at 0x170cf74b8c0 state=finished raised BadRequestError>]
+2026-03-09 12:53:04,449 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 12:53:08,534 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 12:53:12,616 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 12:53:12,624 - ERROR - Error in /summarize: RetryError[<Future at 0x170cf748dd0 state=finished raised BadRequestError>]
+2026-03-09 13:04:19,647 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:04:23,727 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:04:27,800 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:04:27,812 - ERROR - Error in /summarize: RetryError[<Future at 0x2ceec5afd70 state=finished raised BadRequestError>]
+2026-03-09 13:07:31,104 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:07:35,404 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:07:39,501 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:07:39,504 - ERROR - Error in /summarize: RetryError[<Future at 0x2ceec9284a0 state=finished raised BadRequestError>]
+2026-03-09 13:12:19,647 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:12:23,890 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:12:27,977 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:12:27,979 - ERROR - Error in /summarize: RetryError(<Future at 0x2d429fa1b80 state=finished raised BadRequestError>)
+2026-03-09 13:16:15,561 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:16:19,672 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:16:23,761 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:16:23,768 - ERROR - Error in /summarize: RetryError(<Future at 0x1c92a3fb860 state=finished raised BadRequestError>)
+2026-03-09 13:18:36,744 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:18:40,842 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:18:44,934 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:18:44,936 - ERROR - Error in /summarize: RetryError(<Future at 0x2ca522a6ea0 state=finished raised BadRequestError>)
+2026-03-09 13:22:43,454 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:22:47,536 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:22:51,620 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:22:51,625 - ERROR - Error in /summarize: BadRequestError("Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}")
+2026-03-09 13:27:26,333 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:27:30,410 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:27:34,496 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-03-09 13:27:34,496 - ERROR - Error in /summarize: BadRequestError("Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}")
+2026-03-09 13:30:25,117 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-09 13:30:25,135 - INFO - Endpoint: /summarize | Input Tokens: 71 | Output Tokens: 25
+2026-03-09 13:40:42,220 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-09 13:40:42,220 - INFO - Endpoint: /summarize | Input Tokens: 115 | Output Tokens: 39
+2026-03-09 13:50:17,177 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-09 13:50:17,190 - INFO - Endpoint: /extract | Input Tokens: 236
+2026-03-09 13:57:58,416 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-09 13:57:58,432 - INFO - Endpoint: /classify | Label: negative | Tokens: 182
+2026-03-09 13:58:36,814 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-09 13:58:36,814 - INFO - Endpoint: /classify | Label: positive | Tokens: 174
+2026-03-09 14:06:08,840 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-09 14:06:08,857 - INFO - Endpoint: /translate | Target: French | Tokens: 228
